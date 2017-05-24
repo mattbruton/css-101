@@ -1,0 +1,68 @@
+body {
+    background-color: goldenrod;
+}
+
+#playground {
+    display: none;
+}
+
+h1 {
+    font-family: 'Barrio', cursive;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: purple;
+}
+
+#accomplishments h2 {
+    color: slategrey;
+}
+
+.accomplishment {
+    width: 40%;
+    margin: auto;
+    padding: 5px;
+}
+
+.accomplishment img {
+    max-width: 10%;
+}
+
+.accomplishment a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.accomplishment:nth-of-type(1) {
+    background-color: blue;
+    margin-bottom: 15px;
+}
+
+.accomplishment:nth-of-type(2) {
+    background-color: purple;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+}
+
+#images div {
+    width: 30%;
+    /*overflow: hidden;*/
+}
+
+#images img {
+    width: 20vw;
+    height: 20vw;
+}
+
+#images div:nth-of-type(2) {
+    border-radius: 100%;
+}
+
+#images div:nth-of-type(3) {
+    border-radius: 5%;
+}
